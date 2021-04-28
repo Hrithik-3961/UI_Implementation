@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:src="@drawable/background" />
+
+    <TextView
+        android:id="@+id/nirvana"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_50sdp"
+        android:fontFamily="serif-monospace"
+        android:letterSpacing="0.2"
+        android:text="NIRVANA"
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/_20sdp" />
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nirvana"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:orientation="horizontal"
+        android:paddingHorizontal="@dimen/_25sdp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Hello Harsh,"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/_20sdp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.1"
+            android:backgroundTint="#FFFFFF"
+            android:src="@drawable/notification" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.1"
+            android:backgroundTint="#FFFFFF"
+            android:src="@drawable/profile2" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linear"
+        android:layout_marginStart="@dimen/_25sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:fontFamily="serif"
+        android:text="Vibe to the latest selection of songs"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_below="@id/description"
+        android:layout_marginHorizontal="@dimen/_30sdp"
+        android:layout_marginTop="@dimen/_25sdp"
+        android:background="@drawable/textview_bg"
+        android:hint="Search for music "
+        android:paddingHorizontal="@dimen/_25sdp"
+        android:textColorHint="#515151" />
+
+</RelativeLayout>

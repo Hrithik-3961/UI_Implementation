@@ -9,123 +9,45 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#1A1A1A">
+        android:background="#1A1A1A"
+        android:scrollbars="none">
 
-        <RelativeLayout
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
-            <ImageView
+            <include layout="@layout/layout1" />
+
+            <include layout="@layout/layout2" />
+
+            <include layout="@layout/layout3" />
+
+            <View
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:adjustViewBounds="true"
-                android:src="@drawable/background" />
-
-            <TextView
-                android:id="@+id/nirvana"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_centerHorizontal="true"
-                android:layout_marginTop="64dp"
-                android:fontFamily="serif-monospace"
-                android:letterSpacing="0.2"
-                android:text="NIRVANA"
-                android:textColor="#FFFFFF"
-                android:textSize="20sp" />
-
-            <LinearLayout
-                android:id="@+id/linear1"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/nirvana"
-                android:layout_marginTop="40dp"
-                android:orientation="horizontal"
-                android:paddingHorizontal="25dp">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="Hello Harsh,"
-                    android:textColor="#FFFFFF"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
-
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_vertical"
-                    android:layout_weight="0.1"
-                    android:backgroundTint="#FFFFFF"
-                    android:src="@drawable/notification" />
-
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_vertical"
-                    android:layout_weight="0.1"
-                    android:backgroundTint="#FFFFFF"
-                    android:src="@drawable/profile2" />
-
-            </LinearLayout>
-
-            <TextView
-                android:id="@+id/description"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/linear1"
-                android:layout_marginStart="25dp"
-                android:layout_marginTop="5dp"
-                android:fontFamily="serif"
-                android:text="Vibe to the latest selection of songs"
-                android:textColor="#FFFFFF" />
-
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:layout_below="@id/description"
-                android:layout_marginHorizontal="30dp"
-                android:layout_marginTop="65dp"
-                android:background="@drawable/textview_bg"
-                android:hint="Search for music "
-                android:paddingHorizontal="25dp"
-                android:textColorHint="#515151" />
-
-        </RelativeLayout>
+                android:layout_height="@dimen/_55sdp" />
+        </LinearLayout>
 
     </ScrollView>
 
-    <androidx.coordinatorlayout.widget.CoordinatorLayout
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:background="@android:color/transparent">
-        <com.google.android.material.bottomappbar.BottomAppBar
-            android:id="@+id/bottom_appBar"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="bottom"
-            android:backgroundTint="@android:color/transparent">
-            <com.google.android.material.bottomnavigation.BottomNavigationView
-                android:id="@+id/bottom_navigation"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_alignParentBottom="true"
-                android:fitsSystemWindows="true"
-                android:background="@null"
-                android:layout_marginEnd="16dp"
-                app:itemIconTint="@drawable/selector"
-                app:itemTextColor="@drawable/selector"
-                app:labelVisibilityMode="labeled"
-                app:menu="@menu/menu" />
+        android:background="#1A1A1A"
+        android:fitsSystemWindows="true"
+        app:itemIconTint="@drawable/selector"
+        app:itemTextColor="@drawable/selector"
+        app:labelVisibilityMode="labeled"
+        app:menu="@menu/menu" />
 
-        </com.google.android.material.bottomappbar.BottomAppBar>
-        <ImageView
-            android:layout_width="120dp"
-            android:layout_height="120dp"
-            android:src="@drawable/blob"
-            app:layout_anchor="@id/bottom_appBar"
-            app:layout_anchorGravity="center_horizontal" />
-    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <ImageView
+        android:layout_width="@dimen/_120sdp"
+        android:layout_height="@dimen/_120sdp"
+        android:layout_alignParentBottom="true"
+        android:elevation="@dimen/_10sdp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/blob" />
 
 </RelativeLayout>

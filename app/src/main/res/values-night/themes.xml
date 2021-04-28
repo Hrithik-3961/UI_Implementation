@@ -14,4 +14,11 @@
         <!-- Customize your theme here. -->
         <item name="android:windowTranslucentStatus">true</item>
     </style>
+
+    <style name="Heading">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">@dimen/_16sdp</item>
+    </style>
+
 </resources>
