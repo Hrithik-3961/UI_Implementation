@@ -3,8 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:background="@drawable/background1"
     android:orientation="vertical"
-    android:background="@android:color/transparent"
     android:paddingHorizontal="@dimen/_25sdp">
 
 
@@ -37,7 +37,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/linear"
         android:layout_marginTop="@dimen/_15sdp"
-        app:cardBackgroundColor="#66686868"
+        android:elevation="0dp"
+        app:cardBackgroundColor="#87686868"
         app:cardCornerRadius="@dimen/_5sdp"
         app:contentPadding="@dimen/_10sdp">
 
@@ -77,7 +78,7 @@
                         android:layout_width="@dimen/_15sdp"
                         android:layout_height="@dimen/_15sdp"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/background" />
+                        android:src="@drawable/background_img" />
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
@@ -89,7 +90,7 @@
                         android:layout_width="@dimen/_15sdp"
                         android:layout_height="@dimen/_15sdp"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/background" />
+                        android:src="@drawable/background_img" />
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
@@ -101,7 +102,7 @@
                         android:layout_width="@dimen/_15sdp"
                         android:layout_height="@dimen/_15sdp"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/background" />
+                        android:src="@drawable/background_img" />
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
@@ -113,7 +114,7 @@
                         android:layout_width="@dimen/_15sdp"
                         android:layout_height="@dimen/_15sdp"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/background" />
+                        android:src="@drawable/background_img" />
                 </androidx.cardview.widget.CardView>
 
                 <TextView
@@ -176,7 +177,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/card1"
         android:layout_marginTop="@dimen/_15sdp"
-        app:cardBackgroundColor="#66686868"
+        android:elevation="0dp"
+        app:cardBackgroundColor="#87686868"
         app:cardCornerRadius="@dimen/_5sdp"
         app:contentPadding="@dimen/_10sdp">
 
@@ -216,7 +218,7 @@
                         android:layout_width="@dimen/_15sdp"
                         android:layout_height="@dimen/_15sdp"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/background" />
+                        android:src="@drawable/background_img" />
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
@@ -228,7 +230,7 @@
                         android:layout_width="@dimen/_15sdp"
                         android:layout_height="@dimen/_15sdp"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/background" />
+                        android:src="@drawable/background_img" />
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
@@ -240,7 +242,7 @@
                         android:layout_width="@dimen/_15sdp"
                         android:layout_height="@dimen/_15sdp"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/background" />
+                        android:src="@drawable/background_img" />
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
@@ -252,7 +254,7 @@
                         android:layout_width="@dimen/_15sdp"
                         android:layout_height="@dimen/_15sdp"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/background" />
+                        android:src="@drawable/background_img" />
                 </androidx.cardview.widget.CardView>
 
                 <TextView
@@ -311,11 +313,11 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="View more"
-        android:textColor="#FFFFFF"
+        android:layout_below="@id/card2"
         android:layout_alignParentEnd="true"
-        android:fontFamily="sans-serif-thin"
         android:layout_marginTop="@dimen/_15sdp"
-        android:layout_below="@id/card2"/>
+        android:fontFamily="sans-serif-thin"
+        android:text="View more"
+        android:textColor="#FFFFFF" />
 
 </RelativeLayout>

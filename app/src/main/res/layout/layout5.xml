@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/background3"
+    android:paddingHorizontal="@dimen/_25sdp">
+
+    <TextView
+        style="@style/Heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Popular playlist" />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_20sdp">
+
+                <TextView
+                    android:id="@+id/text"
+                    android:layout_width="@dimen/_200sdp"
+                    android:layout_height="wrap_content"
+                    android:text="87% recommended"
+                    android:textColor="#FFFFFF"
+                    android:gravity="center"
+                    android:padding="@dimen/_2sdp"
+                    android:textSize="@dimen/_13sdp"
+                    android:background="@android:color/holo_blue_dark"
+                    android:textStyle="bold"/>
+
+                <ImageView
+                    android:id="@+id/image"
+                    android:layout_below="@id/text"
+                    android:layout_width="@dimen/_200sdp"
+                    android:layout_height="@dimen/_200sdp"
+                    android:src="@drawable/background_img"/>
+
+                <TextView
+                    android:layout_width="@dimen/_200sdp"
+                    android:layout_height="wrap_content"
+                    style="@style/Heading"
+                    android:gravity="center"
+                    android:layout_marginBottom="@dimen/_20sdp"
+                    android:text="Top Playlist in Sufi"
+                    android:layout_alignBottom="@id/image"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_20sdp">
+
+                <TextView
+                    android:id="@+id/text2"
+                    android:layout_width="@dimen/_200sdp"
+                    android:layout_height="wrap_content"
+                    android:text="87% recommended"
+                    android:textColor="#FFFFFF"
+                    android:gravity="center"
+                    android:padding="@dimen/_2sdp"
+                    android:textSize="@dimen/_13sdp"
+                    android:background="@android:color/holo_blue_dark"
+                    android:textStyle="bold"/>
+
+                <ImageView
+                    android:id="@+id/image2"
+                    android:layout_below="@id/text2"
+                    android:layout_width="@dimen/_200sdp"
+                    android:layout_height="@dimen/_200sdp"
+                    android:src="@drawable/background_img"/>
+
+                <TextView
+                    android:layout_width="@dimen/_200sdp"
+                    android:layout_height="wrap_content"
+                    style="@style/Heading"
+                    android:gravity="center"
+                    android:layout_marginBottom="@dimen/_20sdp"
+                    android:text="Top Playlist in Sufi"
+                    android:layout_alignBottom="@id/image2"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_20sdp">
+
+                <TextView
+                    android:id="@+id/text3"
+                    android:layout_width="@dimen/_200sdp"
+                    android:layout_height="wrap_content"
+                    android:text="87% recommended"
+                    android:textColor="#FFFFFF"
+                    android:gravity="center"
+                    android:padding="@dimen/_2sdp"
+                    android:textSize="@dimen/_13sdp"
+                    android:background="@android:color/holo_blue_dark"
+                    android:textStyle="bold"/>
+
+                <ImageView
+                    android:id="@+id/image3"
+                    android:layout_below="@id/text3"
+                    android:layout_width="@dimen/_200sdp"
+                    android:layout_height="@dimen/_200sdp"
+                    android:src="@drawable/background_img"/>
+
+                <TextView
+                    android:layout_width="@dimen/_200sdp"
+                    android:layout_height="wrap_content"
+                    style="@style/Heading"
+                    android:gravity="center"
+                    android:layout_marginBottom="@dimen/_20sdp"
+                    android:text="Top Playlist in Sufi"
+                    android:layout_alignBottom="@id/image3"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+</LinearLayout>
