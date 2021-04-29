@@ -40,13 +40,27 @@
             android:textSize="@dimen/_20sdp"
             android:textStyle="bold" />
 
-        <ImageView
+        <RelativeLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_vertical"
             android:layout_weight="0.1"
-            android:backgroundTint="#FFFFFF"
-            android:src="@drawable/notification" />
+            android:layout_gravity="center">
+
+            <ImageView
+                android:id="@+id/notification"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#FFFFFF"
+                android:src="@drawable/notification" />
+
+            <View
+                android:layout_width="@dimen/_5sdp"
+                android:layout_height="@dimen/_5sdp"
+                android:background="@drawable/notification_dot"
+                android:layout_alignEnd="@id/notification"/>
+
+        </RelativeLayout>
+
 
         <ImageView
             android:layout_width="wrap_content"

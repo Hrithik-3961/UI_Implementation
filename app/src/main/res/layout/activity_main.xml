@@ -30,7 +30,8 @@
 
             <View
                 android:layout_width="match_parent"
-                android:layout_height="@dimen/_105sdp" />
+                android:layout_height="@dimen/_105sdp"
+                android:background="#121212"/>
         </LinearLayout>
 
     </ScrollView>
@@ -59,6 +60,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:elevation="@dimen/_10sdp"
+        android:background="@drawable/circular_shadow"
         android:src="@drawable/blob" />
 
 </RelativeLayout>

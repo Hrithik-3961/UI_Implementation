@@ -4,7 +4,8 @@
     android:layout_height="wrap_content"
     android:orientation="vertical"
     android:background="@drawable/background2"
-    android:paddingHorizontal="@dimen/_25sdp">
+    android:paddingHorizontal="@dimen/_25sdp"
+    android:paddingTop="@dimen/_20sdp">
 
     <TextView
         style="@style/Heading"
@@ -15,50 +16,165 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/_15sdp">
 
-        <ImageView
+        <RelativeLayout
             android:layout_width="0dp"
-            android:layout_height="@dimen/_100sdp"
-            android:layout_weight="1"
-            android:src="@drawable/blob" />
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_15sdp"
+            android:layout_weight="1">
 
-        <ImageView
-            android:layout_width="0dp"
-            android:layout_height="@dimen/_100sdp"
-            android:layout_weight="1"
-            android:src="@drawable/blob" />
+            <ImageView
+                android:id="@+id/image7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/image7" />
 
-        <ImageView
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Energy"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:layout_centerHorizontal="true"
+                android:textSize="@dimen/_15sdp"
+                android:fontFamily="sans-serif"
+                android:layout_alignBottom="@id/image7"
+                android:textColor="#FFFFFF" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
             android:layout_width="0dp"
-            android:layout_height="@dimen/_100sdp"
-            android:layout_weight="1"
-            android:src="@drawable/blob" />
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_15sdp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/image8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/image8" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sad"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:layout_centerHorizontal="true"
+                android:textSize="@dimen/_15sdp"
+                android:fontFamily="sans-serif"
+                android:layout_alignBottom="@id/image8"
+                android:textColor="#FFFFFF" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/image9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/image9" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lonely"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:layout_centerHorizontal="true"
+                android:textSize="@dimen/_15sdp"
+                android:fontFamily="sans-serif"
+                android:layout_alignBottom="@id/image9"
+                android:textColor="#FFFFFF" />
+
+        </RelativeLayout>
 
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/_15sdp">
 
-        <ImageView
+        <RelativeLayout
             android:layout_width="0dp"
-            android:layout_height="@dimen/_100sdp"
-            android:layout_weight="1"
-            android:src="@drawable/blob" />
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_15sdp"
+            android:layout_weight="1">
 
-        <ImageView
-            android:layout_width="0dp"
-            android:layout_height="@dimen/_100sdp"
-            android:layout_weight="1"
-            android:src="@drawable/blob" />
+            <ImageView
+                android:id="@+id/image10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/image10" />
 
-        <ImageView
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Excited"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:layout_centerHorizontal="true"
+                android:textSize="@dimen/_15sdp"
+                android:fontFamily="sans-serif"
+                android:layout_alignBottom="@id/image10"
+                android:textColor="#FFFFFF" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
             android:layout_width="0dp"
-            android:layout_height="@dimen/_100sdp"
-            android:layout_weight="1"
-            android:src="@drawable/blob" />
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_15sdp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/image11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/image10" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Excited"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:layout_centerHorizontal="true"
+                android:textSize="@dimen/_15sdp"
+                android:fontFamily="sans-serif"
+                android:layout_alignBottom="@id/image11"
+                android:textColor="#FFFFFF" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/image12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/image10" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Excited"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:layout_centerHorizontal="true"
+                android:textSize="@dimen/_15sdp"
+                android:fontFamily="sans-serif"
+                android:layout_alignBottom="@id/image12"
+                android:textColor="#FFFFFF" />
+
+        </RelativeLayout>
 
     </LinearLayout>
 

@@ -4,7 +4,8 @@
     android:layout_height="wrap_content"
     android:orientation="vertical"
     android:background="@drawable/background3"
-    android:paddingHorizontal="@dimen/_25sdp">
+    android:paddingHorizontal="@dimen/_25sdp"
+    android:paddingTop="@dimen/_20sdp">
 
     <TextView
         style="@style/Heading"
@@ -37,7 +38,7 @@
                     android:gravity="center"
                     android:padding="@dimen/_2sdp"
                     android:textSize="@dimen/_13sdp"
-                    android:background="@android:color/holo_blue_dark"
+                    android:background="#1943FB"
                     android:textStyle="bold"/>
 
                 <ImageView
@@ -45,7 +46,7 @@
                     android:layout_below="@id/text"
                     android:layout_width="@dimen/_200sdp"
                     android:layout_height="@dimen/_200sdp"
-                    android:src="@drawable/background_img"/>
+                    android:src="@drawable/image4"/>
 
                 <TextView
                     android:layout_width="@dimen/_200sdp"
@@ -67,18 +68,19 @@
                     android:id="@+id/text2"
                     android:layout_width="@dimen/_200sdp"
                     android:layout_height="wrap_content"
-                    android:text="87% recommended"
+                    android:text="99% recommended"
                     android:textColor="#FFFFFF"
                     android:gravity="center"
                     android:padding="@dimen/_2sdp"
                     android:textSize="@dimen/_13sdp"
-                    android:background="@android:color/holo_blue_dark"
+                    android:background="#FA19B3"
                     android:textStyle="bold"/>
 
                 <ImageView
                     android:id="@+id/image2"
                     android:layout_below="@id/text2"
                     android:layout_width="@dimen/_200sdp"
+                    android:scaleType="centerCrop"
                     android:layout_height="@dimen/_200sdp"
                     android:src="@drawable/background_img"/>
 
@@ -107,7 +109,7 @@
                     android:gravity="center"
                     android:padding="@dimen/_2sdp"
                     android:textSize="@dimen/_13sdp"
-                    android:background="@android:color/holo_blue_dark"
+                    android:background="#1943FB"
                     android:textStyle="bold"/>
 
                 <ImageView
@@ -115,7 +117,7 @@
                     android:layout_below="@id/text3"
                     android:layout_width="@dimen/_200sdp"
                     android:layout_height="@dimen/_200sdp"
-                    android:src="@drawable/background_img"/>
+                    android:src="@drawable/image4"/>
 
                 <TextView
                     android:layout_width="@dimen/_200sdp"

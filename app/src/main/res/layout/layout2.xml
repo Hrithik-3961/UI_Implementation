@@ -4,14 +4,14 @@
     android:layout_height="wrap_content"
     android:orientation="vertical"
     android:background="#121212"
-    android:paddingTop="@dimen/_35sdp"
-    android:paddingHorizontal="@dimen/_25sdp">
+    android:paddingTop="@dimen/_35sdp">
 
     <TextView
         style="@style/Heading"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Music Horoscope" />
+        android:text="Music Horoscope"
+        android:paddingHorizontal="@dimen/_25sdp"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -20,13 +20,15 @@
         android:fontFamily="sans-serif-thin"
         android:text="Listening to Music Enhances Physical Performance"
         android:textColor="#FFFFFF"
-        android:textSize="@dimen/_15sdp" />
+        android:textSize="@dimen/_15sdp"
+        android:paddingHorizontal="@dimen/_25sdp"/>
 
     <HorizontalScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/_20sdp"
-        android:scrollbars="none">
+        android:scrollbars="none"
+        android:paddingStart="@dimen/_25sdp">
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -37,25 +39,29 @@
                 android:layout_width="0dp"
                 android:layout_height="@dimen/_100sdp"
                 android:layout_weight="1"
-                android:src="@drawable/blob" />
+                android:src="@drawable/image1"
+                android:layout_marginEnd="@dimen/_15sdp"/>
 
             <ImageView
                 android:layout_width="0dp"
                 android:layout_height="@dimen/_100sdp"
                 android:layout_weight="1"
-                android:src="@drawable/blob" />
+                android:src="@drawable/image2"
+                android:layout_marginEnd="@dimen/_15sdp"/>
 
             <ImageView
                 android:layout_width="0dp"
                 android:layout_height="@dimen/_100sdp"
                 android:layout_weight="1"
-                android:src="@drawable/blob" />
+                android:src="@drawable/image3"
+                android:layout_marginEnd="@dimen/_15sdp"/>
 
             <ImageView
                 android:layout_width="0dp"
                 android:layout_height="@dimen/_100sdp"
                 android:layout_weight="1"
-                android:src="@drawable/blob" />
+                android:src="@drawable/image1"
+                android:layout_marginEnd="@dimen/_15sdp"/>
 
         </LinearLayout>
 

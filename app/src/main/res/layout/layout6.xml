@@ -4,19 +4,21 @@
     android:layout_height="wrap_content"
     android:orientation="vertical"
     android:background="#121212"
-    android:paddingHorizontal="@dimen/_25sdp">
+    android:paddingTop="@dimen/_20sdp">
 
     <TextView
         style="@style/Heading"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New releases this week" />
+        android:text="New releases this week"
+        android:paddingHorizontal="@dimen/_25sdp"/>
 
     <HorizontalScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/_20sdp"
-        android:scrollbars="none">
+        android:scrollbars="none"
+        android:paddingStart="@dimen/_25sdp">
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -27,12 +29,13 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:gravity="center">
+                android:gravity="center"
+                android:layout_marginEnd="@dimen/_15sdp">
 
                 <ImageView
                     android:layout_width="@dimen/_130sdp"
                     android:layout_height="@dimen/_130sdp"
-                    android:src="@drawable/blob" />
+                    android:src="@drawable/image5" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -54,12 +57,13 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:gravity="center">
+                android:gravity="center"
+                android:layout_marginEnd="@dimen/_15sdp">
 
                 <ImageView
                     android:layout_width="@dimen/_130sdp"
                     android:layout_height="@dimen/_130sdp"
-                    android:src="@drawable/blob" />
+                    android:src="@drawable/image6" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -81,12 +85,13 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:gravity="center">
+                android:gravity="center"
+                android:layout_marginEnd="@dimen/_15sdp">
 
                 <ImageView
                     android:layout_width="@dimen/_130sdp"
                     android:layout_height="@dimen/_130sdp"
-                    android:src="@drawable/blob" />
+                    android:src="@drawable/image2" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -108,12 +113,13 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:gravity="center">
+                android:gravity="center"
+                android:layout_marginEnd="@dimen/_15sdp">
 
                 <ImageView
                     android:layout_width="@dimen/_130sdp"
                     android:layout_height="@dimen/_130sdp"
-                    android:src="@drawable/blob" />
+                    android:src="@drawable/image1" />
 
                 <TextView
                     android:layout_width="wrap_content"
